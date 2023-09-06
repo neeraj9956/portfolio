@@ -377,7 +377,7 @@ html,body{
     display: flex;
     justify-content: flex-start;
     gap: 6.0w;
-     background: linear-gradient(to right bottom, red,blue,white,orange,black) ;
+     background: linear-gradient(to right bottom, red,blue,orange,black) ;
     position: relative;
 }
 #footer img{
