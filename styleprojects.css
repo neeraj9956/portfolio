@@ -218,4 +218,11 @@ html,body{
 
     
 }
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(red,green,yellow,blue,orange);
+    border-radius: 20px;
+}
 
