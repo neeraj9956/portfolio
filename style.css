@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: azure;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html,body{
@@ -36,13 +36,15 @@ html,body{
     height: 70px;
     width:100vw;
     position: fixed;
+    font-size: 1.1vw;
     font-display: capitalize;
     align-items: center;
     justify-content: flex-start;
     z-index: 99;
 }
 #nav a{
-    margin-left: 2.5px;
+    margin-left: 2.5vw;
+    
 }
 #nav form{
     display: flex;
@@ -67,8 +69,8 @@ html,body{
     display: flex;
     width: 8vw;
     height: 5vh;
-    text-align: center;
     justify-content: space-evenly;
+   text-align: center;
     border-radius: 20px;
     background-color: transparent;
     border: 0.2px solid red;
@@ -76,7 +78,8 @@ html,body{
     box-shadow: 1px 3px red;
 }
 #nav form button span{
-    font-size:1vw;
+    font-size: 1vw;
+}
 #nav form button:hover{
     background: rgb(51, 14, 199);
 }
@@ -91,14 +94,14 @@ html,body{
     
     text-transform: uppercase;
     font-weight: bolder;
-
+    
+ 
 }
 #nav h3:hover{
-    background: red;
-    border-radius:5px;
-    transition:all ease 1.5s;
     
-    
+   background-color: rgb(241, 18, 21);
+   border-radius: 5px;
+   transition: all ease 1.5s;
 }
 #main{
     position: relative;
@@ -137,9 +140,10 @@ html,body{
 #page1 h3{
     font-size: 2vw;
     font-weight: 300px;
-    -webkit-text-stroke:1px greenyellow;
+    -webkit-text-stroke:0.7px greenyellow;
 }
 #page1 h5{
+    font-size: 1vw;
     -webkit-text-stroke:0.1px darkorange;  
 
 }
@@ -215,7 +219,7 @@ html,body{
     gap: 7vw;
     position: relative;
     z-index: 10;
-    width:100vw;
+    width: 100vw;
 
 }
 .card{
@@ -242,7 +246,7 @@ html,body{
     height: 100vh;
     width: 100vw;
     background-color: #95c11e;
-    padding-top:2vh;
+    padding-top: 2vh;
     opacity: 0;
     transition: all ease 0.6s;
 
@@ -250,9 +254,7 @@ html,body{
 .card:hover .overlay{
     opacity: 1;
 }
-.card:hover{
-    transform: rotate3d(1,1,0,20deg);
-}
+
 .overlay h4{
     color: black;
     font-size: 2vw;
@@ -279,7 +281,7 @@ html,body{
 
 }
 #main-container marquee{
-    font-size: 2vwx;
+    font-size: 2vw;
     text-align: center;
     margin-top: 45px;
     color: black;
@@ -313,9 +315,9 @@ html,body{
 }
 #page3 img{
     position: absolute;
-    height: 60px;
-    width:5vw;
-    border-radius:10px;
+    height: 7vw;
+    width: 5vw;
+    border-radius: 10px;
     
 }
 #page3 #colon1{
@@ -382,23 +384,23 @@ html,body{
     display: flex;
     justify-content: flex-start;
     gap: 3vw;
-    background: linear-gradient(to right , rgb(92, 9, 9),blue,rgba(129, 10, 10, 0.738)) ;
-    position: absolute;
+   position: absolute;
+   background: linear-gradient(to right , rgb(92, 9, 9),blue,rgba(129, 10, 10, 0.738)) ;
+   
 }
 .var h3{
     color: black;
     font-size: 2vw;
     font-family: sans-serif;
     font-weight: 800;
-     position: relative;
-    left:2vw;
+    position: relative;
+    left: 2vw;
 }
 .var{
     height: 80vh;
     width: 100vw;
     
     margin-top: 7vh;
-    
 }
 .var h4{
     color: black;
@@ -407,6 +409,7 @@ html,body{
     font-family: sans-serif;
     font-weight: 600;
 }
+
 .details{
     background-color: transparent;
     width: 97vw;
@@ -415,7 +418,6 @@ html,body{
     border: 2px solid red;
     z-index: 10;
 }
-
 .details h2{
     text-align: center;
     -webkit-text-stroke: 0.5px red;
@@ -437,4 +439,3 @@ body::-webkit-scrollbar-thumb{
     background: linear-gradient(red,green,yellow,blue);
     border-radius: 20px;
 }
-
