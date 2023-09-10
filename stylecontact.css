@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    width: 100vw;
+    height:100vh;
+    background-color: black;
+    
+}
+.us{
+    height: 60vh;
+    background-color: rgba(71, 71, 75, 0.226);
+    width: 50vw;
+    margin: 5%;
+    
+    border-radius:  30px;
+    border: 2px solid red;
+    background-color: transparent;
+
+
+}
+ h2{
+    position: absolute;
+    font-size: 3vw;
+    left: 10vw;
+    color: red;
+    top: 1vw;
+
+    
+}
+.book
+{
+    height: 60vh;
+    width: 70vw;
+    margin-top: 20px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+
+}
+
+.book label{
+    font-size: 2vw;
+    font-weight: 400px;
+    margin-left: 5px;
+    color: whitesmoke;
+    
+}
+.book input{
+
+    height: 5vh;
+    width:35vw;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+    
+}
+.book span input{
+    height: 130px;
+}
+button{
+    width: 12vw;
+    position: absolute;
+    height: 5vh;
+    background: linear-gradient( to bottom,red,blue);
+    border-radius: 10px;
+   left: 200px;
+    
+}
+#bar{
+    margin-left: 5vw;
+   
+}
+#mid{
+    margin-left: 5vw;
+}
