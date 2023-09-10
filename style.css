@@ -6,8 +6,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html,body{
-    width: 100%;
-    height:100%;
+    width: 100vw;
+    height:100vh;
     
 }
 
@@ -31,10 +31,10 @@ html,body{
 }
 #nav{
     display:flex;
-    gap: 30px;
+    gap: 1.5vw;
     background-color:transparent;
     height: 70px;
-    width:100%;
+    width:100vw;
     position: fixed;
     font-display: capitalize;
     align-items: center;
@@ -42,13 +42,13 @@ html,body{
     z-index: 99;
 }
 #nav a{
-    margin-left: 50px;
+    margin-left: 2.5px;
 }
 #nav form{
     display: flex;
     position: relative;
-    gap: 10px;
-    left: 10%;
+    gap: 1vw;
+    left: 10vw;
     z-index: 10;
 }
 #nav form input{
@@ -68,19 +68,21 @@ html,body{
     width: 8vw;
     height: 5vh;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
     border-radius: 20px;
     background-color: transparent;
     border: 0.2px solid red;
     align-items: center;
     box-shadow: 1px 3px red;
 }
+#nav form button span{
+    font-size:1vw;
 #nav form button:hover{
-    background: rgb(81, 96, 95);
+    background: rgb(51, 14, 199);
 }
  video{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     object-fit: cover;
     position: fixed;
 
@@ -89,11 +91,12 @@ html,body{
     
     text-transform: uppercase;
     font-weight: bolder;
-    margin-left: 3%;
 
 }
 #nav h3:hover{
     background: red;
+    border-radius:5px;
+    transition:all ease 1.5s;
     
     
 }
@@ -103,7 +106,7 @@ html,body{
 }
 #page1{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     position: relative;
     display: flex;
     align-items: center;
@@ -115,8 +118,8 @@ html,body{
   
 }
 #page1 img{
-    height: 45%;
-    width: 20%;
+    height: 40vh;
+    width: 25vw;
     border-radius: 20px;
 }
 #page1 a{
@@ -126,23 +129,23 @@ html,body{
   font-family: sans-serif;
 }
 #page1 h1{
-    font-size: 70px;
-    font-weight: 700px;
+    font-size: 5vw;
+    font-weight: 700vw;
     -webkit-text-stroke:1px  brown;
     text-decoration: underline;
 }
 #page1 h3{
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: 300px;
     -webkit-text-stroke:1px greenyellow;
 }
 #page1 h5{
-    -webkit-text-stroke:0.2px darkorange;  
+    -webkit-text-stroke:0.1px darkorange;  
 
 }
 #page2{
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     z-index: 10;
 
 
@@ -153,7 +156,7 @@ html,body{
       z-index: 10;
 }
 #content{
-    font-size: 65px;
+    font-size: 4vw;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     transition: all linear 0.5s;
@@ -167,7 +170,7 @@ html,body{
         
     display: flex;
     height: 40vh;
-    width: 100%;
+    width: 100vw;
     justify-content: space-around;
     position: relative;
     z-index: 10;
@@ -175,31 +178,31 @@ html,body{
 }
 #about-us-in h3{
     
-    font-size: 70px;
+    font-size: 4.5vw;
     -webkit-text-stroke: 2px blue;
-    margin-bottom: 40px;
+    margin-bottom: 2vh;
     
 
 }
 #about-us-in{
-    width: 50%;
+    width: 50vw;
     text-align: center;
 }
 #about-us-in p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     text-align: center;
     justify-content: space-around;
-    font-weight: 700;
-    -webkit-text-stroke: 0.4px red;
-    font-size: 20px;
-    line-height: 26px;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.3px red;
+    font-size: 2vw;
+    line-height: 5vh;
     
 }
 
 #about-us img{
-    margin-top: 5%;
-    width: 25%;
-    height: 60%;
+    margin-top: 5vh;
+    width: 20vw;
+    height: 25vh;
     border-radius: 20px;
     object-fit: cover;
 }
@@ -209,14 +212,15 @@ html,body{
     align-items: center;
     justify-content: center;
     height: 60vh;
-    gap: 70px;
+    gap: 7vw;
     position: relative;
     z-index: 10;
+    width:100vw;
 
 }
 .card{
-    height: 80%;
-    width: 22%;
+    height: 50vh;
+    width: 30vw;
     background-color: red;
     border-radius: 20px;
     background-size: cover;
@@ -235,11 +239,10 @@ html,body{
     background-image: url("https://cdn.wallpapersafari.com/94/74/hI8e1l.jpg");
 }
 .overlay{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: #95c11e;
-    padding: 30px;
-    padding-top: 50px;
+    padding-top:2vh;
     opacity: 0;
     transition: all ease 0.6s;
 
@@ -252,16 +255,16 @@ html,body{
 }
 .overlay h4{
     color: black;
-    font-size: 28px;
+    font-size: 2vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
     white-space: nowrap;
-    margin-bottom: 25px;
+    margin-bottom: 2vh;
 }
 .overlay p{
-    color: rgba(212, 59, 20, 0.511);
-    font-size: 17px;
-    font-weight: 700;
+    color: rgba(73, 22, 10, 0.908);
+    font-size: 1vw;
+    font-weight: bold;
 }
 #main-container{
     height: 30vh;
@@ -269,14 +272,14 @@ html,body{
     background: linear-gradient(to left bottom,greenyellow,darkred);
     display: flex;
     position: relative;
-    left: 0.5%;
-    gap: 320px;
+    left: 0.5vw;
+    gap: 3vw;
     border-radius: 20px;
     
 
 }
 #main-container marquee{
-    font-size: 25px;
+    font-size: 2vwx;
     text-align: center;
     margin-top: 45px;
     color: black;
@@ -287,7 +290,7 @@ html,body{
 
 }
 #page3{
-    width:100%;
+    width:100vw;
     height: 100vh;
     text-align: center;
     justify-content: center;
@@ -297,43 +300,45 @@ html,body{
 
 }
 #page3 >p{
-    font-size: 30px;
+    font-size: 3vw;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
-    width: 60%;
-    line-height: 45px;
-    margin-top: 250px;
+    font-weight: bold;
+    width: 60vw;
+    line-height: 6.5vh;
+    margin-top: 20vh;
 
 }
 #page3 img{
     position: absolute;
     height: 60px;
+    width:5vw;
+    border-radius:10px;
     
 }
 #page3 #colon1{
-    left: 15%;
-    top: 25%;
+    left: 12vw;
+    top: 20vh;
 }
 #page3 #colon2{
-    right: 15%;
-    bottom: 25%;
+    right: 7vw;
+    bottom: 2vh;
 }
 .green-content{
     height: 30vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     
     position: relative;
-    gap: 50px;
+    gap: 5vw;
     justify-content: center;
     
 }
  .elem{
-    height: 70%;
-    width:26%;
+    height: 25vh;
+    width:26vw;
     border-radius: 20px;
     
     position: relative;
@@ -342,8 +347,8 @@ html,body{
 
 }
 .elem h4{
-    height: 100%;
-    width: 100%;
+    height: 25vh;
+    width: 26vw;
     background-color: #95c11e;
     display:flex ;
     align-items: center;
@@ -357,8 +362,8 @@ html,body{
 
 }
 .elem img{
-    height: 100%;
-    width: 100%;
+    height: 25vh;
+    width: 26vw;
     object-fit: cover;
     transition: all ease 0.10s;
    
@@ -372,145 +377,59 @@ html,body{
     scale:1;
 }
 .footer{
-    height: 45vh;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: flex-start;
-    gap: 6.0w;
-     background: linear-gradient(to right bottom, red,blue,orange,black) ;
-    position: relative;
-}
-#footer img{
+    gap: 3vw;
+    background: linear-gradient(to right , rgb(92, 9, 9),blue,rgba(129, 10, 10, 0.738)) ;
     position: absolute;
-    left: 0;
-    height: 100%;
-    z-index: 0;
 }
 .var h3{
     color: black;
-    font-size: 30px;
+    font-size: 2vw;
     font-family: sans-serif;
     font-weight: 800;
-  
-    position: relative;
-    justify-content: center;
-    align-items: center;
+     position: relative;
+    left:2vw;
 }
 .var{
-    height: 70%;
-    width: 100%;
+    height: 80vh;
+    width: 100vw;
     
-    margin-top: 100px;
+    margin-top: 7vh;
     
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    z-index: 99;
 }
 .var h4{
     color: black;
-    font-size: 20px;
+    font-size: 1vw;
    
     font-family: sans-serif;
     font-weight: 600;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-
-}
-.us{
-    height: 72vh;
-    background-color: rgba(71, 71, 75, 0.226);
-    width: 60%;
-    margin: 5%;
-    z-index: 99;
-    border-radius:  30px;
-    border: 2px solid red;
-    background-color: transparent;
-
-
-}
-.us h2{
-    font-size: 30px;
-    padding-left: 10%;
-    color: red;
-    
-}
-.book
-{
-    height: 90%;
-    width: 100%;
-    margin-top: 20px;
-    
-    justify-content: center;
-    align-items: center;
-    z-index: 99;
-    
-  
-
-}
-.book form{
-    z-index: 10;
-}
-.book label{
-    font-size: 24px;
-    font-weight: 400px;
-    margin-left: 20px;
-    
-}
-.book input{
-
-    height: 40px;
-    width:50%;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: space-evenly;
-    text-align: center;
-    
-}
-.book span input{
-    height: 130px;
-}
-.book button{
-    width: 20%;
-    height: 40px;
-    background: linear-gradient( to bottom,red,blue);
-    border-radius: 10px;
-    margin-left: 50%;
-}
-#bar{
-    margin-left: 60px;
-    border: 0.5px solid black;
-}
-#mid{
-    margin-left: 60px;
 }
 .details{
     background-color: transparent;
-    width: 45%;
-    height: 100%;
-    margin-left: 110%;
-    margin-top: -63%;
+    width: 97vw;
+    height: 100vh;
     border-radius: 20px;
     border: 2px solid red;
     z-index: 10;
 }
-.info{
-    margin-left: 10px;
-    z-index: 10;
 
+.details h2{
+    text-align: center;
+    -webkit-text-stroke: 0.5px red;
 }
-.info a{
-    color: blue;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 30%;
-    margin-top: 0%;
-    
-    border-radius: 5px;
+ .details h3{
+    position: absolute;
+    left: 2vw;
+    -webkit-text-stroke: 0.5px blue;
 }
+.details p{
+    position: relative;
+    left: 1vw;
+}
+
 body::-webkit-scrollbar{
     background-color: transparent;
 }
