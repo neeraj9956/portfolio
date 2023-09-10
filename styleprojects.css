@@ -6,162 +6,163 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html,body{
-    width: 100%;
-    height:100%;
+    width: 100vw;
+    height:100vh;
     
 }
 .mainpage{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     position: relative;
     
 }
 
 .mainpage h2{
-    font-size: 40px;
+    font-size: 3.7vw;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 2vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     -webkit-text-stroke: 0.8px red;
 }
 .content1{
-    width: 100%;
-    height: 60%;
+    width: 95vw;
+    height: 60vh;
     background-color:transparent;
-    margin-top: 30px;
-    
-    gap: 40px;
+    margin-top: 3vh;
     display: flex;
+    margin-right: 2vw;
 }
 
 
 .content1 .card1{
-    height: 90%;
-    width: 60%;
+    height: 60vh;
+    width: 60vw;
     background-image: url(https://i.ytimg.com/vi/gTJw7zKszfk/maxresdefault.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 30px;
-    margin-left: 3%;
-    margin-top: 1.5%;
+    margin-left: 3vw;
+    margin-top: 1vh;
     
 }
 .content1 .card2{
-    height: 90%;
-    width: 60%;
+    height: 60vh;
+    width: 55vw;
     background-image: url(https://blog.teachinguide.com/wp-content/uploads/2019/02/20190208_Online_Learning_Platforms.png);
     background-size: cover;
     background-position: center;
     margin: 20px 50px;
     border-radius: 30px;
+    margin-top: 1vh;
 }
 .card2 h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
     color: black;
-    margin-top: 3px;
+    margin-top: 1vh;
 }
 
 .card1 h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
 .content2{
-    width: 100%;
-    height: 60%;
-    background-color: transparent;
     
-    position:absolute;
-    gap: 40px;
-
+    width: 100vw;
+    height: 60vh;
+    background-color:transparent;
+    margin-top: 3vh;
+    
+    gap: 4vw;
     display: flex;
     
     
 }
 .content2 .page1{
-    height: 90%;
-    width: 44%;
+    height: 55vh;
+    width: 44vw;
+ 
     background-image: url(https://images.unsplash.com/photo-1601999007938-f584b47324ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
     background-size: cover;
     background-position: center;
-    margin: 3%;
-    margin-top: 1.5%;
+    margin: 2.5vw;
+    margin-top: 2vh;
     
     border-radius: 30px;
 
 }
 .page1 h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
 .content2 .page2{
-    height: 90%;
-    width: 44%;
+    height: 55vh;
+    width: 44vw;
     background-image: url(https://play-lh.googleusercontent.com/J6_Wqq33uvIyug7NuiveiQ_hxNcDOG4gt5hy9PxuypYV-Dn2vJPH4ZpHCMu89fjcJqw);
     background-position: center;
     background-size: cover;
-    margin-top: 1.5%;
+    margin-top: 1vh;
     border-radius: 30px;
 }
 .page2 h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
 .card1 p span{
     color: red; 
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bolder;
-    margin-left: 3%;
+    margin-left: 1vw;
 }
 .card2 p span{
     color: red; 
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bolder;
-    margin-left: 3%;
+    margin-left: 1vw;
 }
 
 .page1 p span{
     color: red; 
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bolder;
-    margin-left: 3%;
+    margin-left: 1vw;
 }
 
 .page2 p span{
     color: red; 
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: bolder;
-    margin-left: 3%;
+    margin-left: 1vw;
 }
 .card1 p{
     color:black;
     font-weight: 700px;
     font-family: sans-serif;
-    font-size: 20px;
-    margin-left: 3px;
+    font-size: 1.5vw;
+    margin-left: 1vw;
 }
 .card2 p{
     color:black;
     font-weight: 700px;
     font-family: sans-serif;
-    font-size: 20px;
-    margin-left: 3px;
+    font-size: 1.5vw;
+    margin-left: 1vw;
 }
 
 .overlay{
     background:linear-gradient(to bottom,greenyellow,green);
-    height: 100%;
-    width: 100%;
+    height: 55vh;
+    width: 45vw;
     border-radius: 20px;
     opacity: 0;
     transition: all ease 0.6s;
@@ -209,20 +210,22 @@ html,body{
     margin-left: 3px;
 }
 .footer{
-    height: 10%;
-    margin-top: 17%;
+    height: 7vh;
+    margin-top: 35vh;
     background:linear-gradient(to bottom,yellow,orange);
-    font-size: 30px;
-    font-weight: bolder;
-    
-
-    
+    font-size: 2vw;
+    font-weight: bold;
+}
+.footer span{
+    position: absolute;
+    top: 1.5vh;
 }
 body::-webkit-scrollbar{
     background-color: transparent;
 }
 body::-webkit-scrollbar-thumb{
-    background: linear-gradient(red,green,yellow,blue,orange);
+    background: linear-gradient(red,green,yellow,blue);
     border-radius: 20px;
 }
+
 
