@@ -435,7 +435,3 @@ html,body{
 body::-webkit-scrollbar{
     background-color: transparent;
 }
-body::-webkit-scrollbar-thumb{
-    background: linear-gradient(red,green,yellow,blue);
-    border-radius: 20px;
-}
